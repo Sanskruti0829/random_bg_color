@@ -1,0 +1,27 @@
+<html>
+<head>
+     	<title> new color app by sanskruti</title>
+   	<style> 
+		*{font-size:50px;}
+	</style>
+     
+ </head>
+
+ <body>
+	<center>
+     	<h2 > new color</h2>
+	</center>
+       	<script>
+		function cm()
+		{
+			let colors=["red","pink","blue","green","orange","skyblue"];
+			let r=parseInt(Math.random()*colors.length);
+			document.body.style.backgroundColor=colors[r];
+		}
+		cm();
+    		setInterval(cm,500);
+
+	</script>
+	
+</body>
+</html>
